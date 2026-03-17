@@ -1,0 +1,23 @@
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Docker & Environment ---
+.env
+*.log
+docker-compose.override.yml
+
+# --- Application Specific (PHP/Apache) ---
+# Prevent uploaded files from being pushed to GitHub
+apps/file-uploader/uploads/*
+# But keep the folder structure
+!apps/file-uploader/uploads/.gitkeep
+
+# --- PHP/Composer (If you use it later) ---
+vendor/
+.phpunit.result.cache
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
