@@ -1,4 +1,4 @@
-# Container Lab Suite 🐳
+# Docker Blueprints 🐳
 
 A centralized repository for various Dockerized applications. Each folder within `/apps` contains a standalone service with its own `Dockerfile` and configuration dependencies.
 
